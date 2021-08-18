@@ -25,12 +25,12 @@ Stupidly simple Discord webhooks for javascript
 
 ### Wumphook object
 Required arguments:
-* url (string) - webhook url
-* text (string) - message content
+* `url` (string) - webhook url
+* `text` (string) - message content
 Optional arguments:
-* name (string) - webhook user name
-* avatar (string) - webhook avatar image url
-* embeds (Embed array) - list of Embed objects to append to the message
+* `name` (string) - webhook user name
+* `avatar` (string) - webhook avatar image url
+* `embeds` (Embed array) - list of Embed objects to append to the message
 
 #### Methods
 `execute()`
@@ -39,8 +39,8 @@ Optional arguments:
 title=null,color=null,description=null,image='',fields=[]
 ### Embed object
 Optional arguments:
-* title (string) - embed title
-* color (string) - hexadecimal embed color. ex `ffffff`
-* description (string) - embed description
-* image (string) - embed image url
-* fields (Object array) - array of arbitrary field objects, must conform with [discord embed field structure](https://discord.com/developers/docs/resources/channel#embed-object-embed-field-structure)
+* `title` (string) - embed title
+* `color` (string) - hexadecimal embed color. ex `ffffff`
+* `description` (string) - embed description
+* `image` (string) - embed image url
+* `fields` (Object array) - array of arbitrary field objects, must conform with [discord embed field structure](https://discord.com/developers/docs/resources/channel#embed-object-embed-field-structure)
