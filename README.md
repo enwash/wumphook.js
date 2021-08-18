@@ -24,21 +24,20 @@ Stupidly simple Discord webhooks for javascript
 ## Full documentation
 
 ### Wumphook object
-Required arguments:
+#### Required arguments:
 * `url` (string) - webhook url
 * `text` (string) - message content
-Optional arguments:
+#### Optional arguments:
 * `name` (string) - webhook user name
 * `avatar` (string) - webhook avatar image url
 * `embeds` (Embed array) - list of Embed objects to append to the message
 
-#### Methods
+#### Methods:
 `execute()`
 * Takes no arguments, posts and returns parsed json data and sets the Wumphook object's `response` attribute the post response
 
-title=null,color=null,description=null,image='',fields=[]
 ### Embed object
-Optional arguments:
+#### Optional arguments:
 * `title` (string) - embed title
 * `color` (string) - hexadecimal embed color. ex `ffffff`
 * `description` (string) - embed description
